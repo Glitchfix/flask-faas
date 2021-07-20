@@ -34,5 +34,5 @@ setuptools.setup(
         'Programming Language :: Python :: 3.10',
     ],
 
-    download_url="https://github.com/Glitchfix/flask-serverless/archive/refs/tags/0.0.3.tar.gz",
+    download_url="https://github.com/Glitchfix/flask-serverless/archive/refs/tags/0.1.tar.gz",
 )
