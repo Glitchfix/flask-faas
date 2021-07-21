@@ -5,21 +5,22 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='flask-serverless',
-    packages=['flask-serverless'],
-    version='0.0.3',
+    name='flask-faas',
+    packages=setuptools.find_packages(),
+    package_dir = {'': 'flask_faas'},
+    version='0.1.0',
     license='MIT',
     description='flask serverless decorator',
     long_description=long_description,
     long_description_content_type="text/markdown",
     author='Shivanjan Chakravorty',
     author_email='schakravorty846@gmail.com',
-    url='https://github.com/Glitchfix/flask-serverless',
+    url='https://github.com/Glitchfix/flask-faas',
     project_urls={                                # Optional
-        "Bug Tracker": "https://github.com/Glitchfix/flask-serverless/issues"
+        "Bug Tracker": "https://github.com/Glitchfix/flask-faas/issues"
     },
     install_requires=['flask', 'pytest'],
-    keywords=["flask", "serverless", "flask-serverless", "lambda",
+    keywords=["flask", "serverless", "faas", "flask-serverless", "lambda",
               "cloud function", "flask serverless"],  # descriptive meta-data
     classifiers=[                                   # https://pypi.org/classifiers
         'Development Status :: 5 - Production/Stable',
@@ -34,5 +35,5 @@ setuptools.setup(
         'Programming Language :: Python :: 3.10',
     ],
 
-    download_url="https://github.com/Glitchfix/flask-serverless/archive/refs/tags/0.1.tar.gz",
+    download_url="https://github.com/Glitchfix/flask-faas/archive/refs/tags/0.1.tar.gz",
 )

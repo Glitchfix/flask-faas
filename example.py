@@ -1,5 +1,5 @@
-from flask_serverless.gcp import google_cloud_function
-from flask_serverless.aws import aws_lambda
+from flask_faas.gcp import google_cloud_function
+from flask_faas.aws import aws_lambda
 from flask import Flask, jsonify
 
 app = Flask(__name__)
