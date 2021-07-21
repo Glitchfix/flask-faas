@@ -6,9 +6,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='flask-faas',
-    packages=setuptools.find_packages(),
-    package_dir = {'': 'flask_faas'},
-    version='0.1.0',
+    packages=["flask_faas"],
+    version='0.0.1',
     license='MIT',
     description='flask serverless decorator',
     long_description=long_description,
