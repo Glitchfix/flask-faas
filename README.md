@@ -9,6 +9,11 @@ Migrating from serverless to a server application can be a headache at times.
 flask-faas provides you a layer that sits on top of your existing serverless application handlers and helps them convert to Flask routes.
 The prime goal is to be easy to use and easier to port. We currently support [Google Cloud Function](https://cloud.google.com/functions/), [AWS Lambda](https://aws.amazon.com/lambda/) and [OpenFaaS](https://www.openfaas.com/). We would have Azure Functions on the roadmap shortly.
 
+## Installation
+
+```py
+pip install flask-faas
+```
 
 ## Just import and use, no extra hassle!
 
